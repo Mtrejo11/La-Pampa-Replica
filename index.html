@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>La Pampa Restaurante</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-nav">
+                            <a href="index.html"><img src="http://restauranteslapampa.com/wp-content/uploads/2017/03/home-25.png" class="logo" alt="Logo pampa" srcset=""></a> 
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                        
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                <a class="nav-link active" href="index.html">INICIO <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item ">
+                                        
+                                <a class="nav-link" href="menu.html">MENÚ</a>
+                                </li>
+
+                                <li class="nav-item ">      
+                                    <a class="nav-link" href="sucursales.html">SUCURSALES</a>
+                                </li>
+
+                            </ul>
+                            
+                            </div>
+                        </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 inicio text-center col-centered">
+                <div class="col-md-12 align-middle">
+                    <img src="http://restauranteslapampa.com/wp-content/uploads/2017/03/home-01-1.png" id="pampa_logo" alt="" srcset="">
+                </div>    
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-centered text-center" id="inicioMenu">
+                <div class="col-md-8 text-center col-centered">
+                    <h1 >Nuestro Menú</h1>
+                    <p>
+                            En nuestro menú podrás encontrar una amplia variedad de platillos. Todos ellos con productos de primera calidad para que pruebes el exquisito sabor de La Pampa.
+                    </p>
+                </div>
+                <button class="btn btn-secondary" onclick="redirect()">Conoce el menú</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-centered" id="historia">
+                <div class="col-md-6 text-justify col-centered" >
+                    <img src="https://restauranteslapampa.com/wp-content/uploads/2017/03/home-16.png" alt="" id="anios">
+                </div>
+                <div class="col-md-8 text-justify col-centered" id="content-anios">
+                    <p>
+                            La Pampa es reconocida por la calidad de sus platos y precios altamente competitivos. El negocio tuvo una gran aceptación del Mercado, y es por esto que año con año La Pampa se ha expandido en distintos puntos del país, contando con 18 sucursales dentro de la región centroamericana. 
+                            Desde su apertura en 1987, nuestra especialidad ha sido cortes de carne asados al estilo Steak House. Sin embargo, a lo largo de los años hemos incorporado nuevos tipos de platos. Entre ellos: pollo, conejo, cortes de carne de cerdo, mariscos, etc.
+                            Nuestro servicio personalizado es el sello que nos caracteriza, es por eso que nos esforzamos para atenderle a la altura de sus expectativas. Buscamos que en cada uno de nuestros restaurantes siempre viva la mejor experiencia de comer fuera.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row" id="footer">
+            <div class="col-md-12 col-centered text-center">
+                <div class="row">
+                        <div class="col-md-4 foot" id="redes" >
+                                <h3>Redes Sociales</h3>
+                                <hr>
+                                <div class="row col-centered" >
+                                    <div class="col-md-4 col-4">
+                                        <a href="https://www.facebook.com/lapamparestaurantes/"><img class="icon" src="https://img.icons8.com/windows/32/000000/facebook.png"></a>
+                                    </div>
+                                    <div class="col-md-4 col-4">
+                                        <a href="https://www.instagram.com/lapamparestaurantes/"><img class="icon"  src="https://img.icons8.com/ios/50/000000/instagram-new.png"></a>
+                                    </div>
+                                    <div class="col-md-4 col-4">
+                                        <a href="https://www.youtube.com/channel/UCpn_8i_CjnaxU-nr-KtoQcA"><img class="icon"  src="https://img.icons8.com/ios/50/000000/youtube-play.png"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 foot" id="contacto">
+                                <h3>Contáctanos</h3>
+                                <div class="col-md-12 text-justify">
+                                    <p><img src="https://img.icons8.com/material-rounded/24/000000/phone.png"> (+503) 2263-8744</p>
+                                    <p><img src="https://img.icons8.com/material-outlined/24/000000/marker.png">Av. Alfredo Espino Calle A #1324,
+                                        San Salvador, El Salvador, C. A.</p>
+                                    <p>
+                                            <img src="https://img.icons8.com/material-outlined/24/000000/new-post.png">
+                                            lapampa.reservaciones@gmail.com
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4" id="mod_btn">
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-secondary align-middle" data-toggle="modal" data-target="#exampleModal">
+                                    Sugerencias
+                                </button>
+                      
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Tus Sugerencias</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                        </div>
+                                        <div class="modal-body text-left">
+                                                <form>
+                                                        <div class="form-group">
+                                                          <label for="exampleInputEmail1">Nombre</label>
+                                                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                          <small id="emailHelp" class="form-text text-muted">Opcional</small>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="exampleFormControlTextarea1">Comentario</label>
+                                                            <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="5"></textarea>
+                                                        </div>
+                                                        <button type="submit" class="btn btn-primary text-center">Enviar</button>
+                                                      </form>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+            </div>
+        </div>
+        <small class="form-text text-muted text-center">Imágenes tomadas de <a href="https://restauranteslapampa.com/">La Pampa Restaurante</a></small>
+    </div>
+    <script>
+    function redirect(){
+        window.open('menu.html','_self');
+    }
+    </script>
+</body>
+</html>
